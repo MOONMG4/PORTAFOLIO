@@ -12,10 +12,10 @@ public class Recursividad {
  }
 
  public static void main(String[] args){
-  Scanner sc = new Scanner(System.in);
+  Scanner scan = new Scanner(System.in);
 
-  System.out.println("Cúal es tu nombre ");
-  String nombre = sc.nextLine();
+  System.out.println("Dame tu nombre ");
+  String nombre = scan.nextLine();
   saludo(10, nombre);
  }
 }
